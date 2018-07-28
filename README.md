@@ -1,2 +1,2 @@
 # IEEE-ED-NSEC-website
-IEEE EDS Student Brsnch Chapter 
+IEEE EDS Student Branch Chapter 
