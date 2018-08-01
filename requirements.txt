@@ -1,0 +1,8 @@
+1) Director's message
+2) Principal's message
+3) HOD's message
+4) KSD's message
+5) Advisor message
+
+6) ABOUT US
+7) Contact US

@@ -14,4 +14,4 @@ echo "<p><b> $a plus $b is $c </b></p>";
 
 		 ?>
 	</body>
-	</html>
+</html>
