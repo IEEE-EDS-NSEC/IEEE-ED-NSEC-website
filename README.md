@@ -1,3 +1,3 @@
 # IEEE-ED-NSEC-website
-IEEE EDS Student Branch Chapter 
-Website is open sourced to help new designers to wrk their way through :)
+IEEE EDS Student Branch Chapter. 
+The Website is open sourced to help buddying website developers to work their way through :)
