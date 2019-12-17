@@ -1,0 +1,676 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ed18dba6db3588654a71f5557f02848c",
+    "content-hash": "f3909d2ca2ba691892dbcc37ad24d925",
+    "packages": [
+        {
+            "name": "abeautifulsite/simpleimage",
+            "version": "2.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/claviska/SimpleImage.git",
+                "reference": "5be7b5c912b94b85b20e423b9b8bd4680ccaa53b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/5be7b5c912b94b85b20e423b9b8bd4680ccaa53b",
+                "reference": "5be7b5c912b94b85b20e423b9b8bd4680ccaa53b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "abeautifulsite": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nazar Mokrynskyi",
+                    "email": "nazar@mokrynskyi.com",
+                    "homepage": "http://cleverstyle.org/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Cory LaViska",
+                    "homepage": "http://www.abeautifulsite.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP class that simplifies working with images",
+            "time": "2015-08-08 06:11:41"
+        },
+        {
+            "name": "bixie/breadcrumbs",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/breadcrumbs/1.0.0.zip",
+                "reference": null,
+                "shasum": "1e870e2ddfa353d8a10b519ef214f4354d6cbec3"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://www.bixie.org"
+                }
+            ],
+            "description": "Display breadcrumbs on your Pagekit page"
+        },
+        {
+            "name": "bixie/formmaker",
+            "version": "1.4.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/formmaker/1.4.4.zip",
+                "reference": null,
+                "shasum": "db94787ec46dfb74f6034635a256a64526e3076a"
+            },
+            "require": {
+                "google/recaptcha": "~1.1"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://formmaker.bixie.org"
+                }
+            ],
+            "description": "Create forms in your Pagekit site. Build forms and manage the submissions. Requires the Bixie Framework, available on the Pagekit Marketplace."
+        },
+        {
+            "name": "bixie/pk-framework",
+            "version": "1.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/pk-framework/1.0.4.zip",
+                "reference": null,
+                "shasum": "d23128ce2d768ce4843a43bda056484582fd4c37"
+            },
+            "require": {
+                "abeautifulsite/simpleimage": "2.5.*"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bixie\\PkFramework\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://www.bixie.org"
+                }
+            ],
+            "description": "Framework for Bixie extensions."
+        },
+        {
+            "name": "bixie/portfolio",
+            "version": "1.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/portfolio/1.2.0.zip",
+                "reference": null,
+                "shasum": "4b96fb64cf470eed48208e7ecb8e7e82f0533930"
+            },
+            "require": {
+                "abeautifulsite/simpleimage": "2.5.*"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://portfolio.bixie.org"
+                }
+            ],
+            "description": "Create a beautiful portfolio in your Pagekit site"
+        },
+        {
+            "name": "bixie/userprofile",
+            "version": "1.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/userprofile/1.3.0.zip",
+                "reference": null,
+                "shasum": "be76efd1d46e6097bfbba6603eda8312ad638000"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.nl",
+                    "homepage": "http://userprofile.bixie.org"
+                }
+            ],
+            "description": "Userprofile for Pagekit. Requires the Bixie Framework, available on the Pagekit Marketplace."
+        },
+        {
+            "name": "friendlyit/search",
+            "version": "0.1.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/friendlyit/search/0.1.6.zip",
+                "reference": null,
+                "shasum": "b263c024ab17d7bd0f38bd5b3d748642f804448d"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Friendly-IT",
+                    "email": "info@friendly-it.ru",
+                    "homepage": "http://pagekit.friendly-it.ru/"
+                }
+            ],
+            "description": "Add a configurable search form to your site."
+        },
+        {
+            "name": "google/recaptcha",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/recaptcha.git",
+                "reference": "e7add3be59211482ecdb942288f52da64a35f61a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/e7add3be59211482ecdb942288f52da64a35f61a",
+                "reference": "e7add3be59211482ecdb942288f52da64a35f61a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.2.20|^2.12",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ReCaptcha\\": "src/ReCaptcha"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
+            "homepage": "https://www.google.com/recaptcha/",
+            "keywords": [
+                "Abuse",
+                "captcha",
+                "recaptcha",
+                "spam"
+            ],
+            "time": "2018-08-05 09:31:53"
+        },
+        {
+            "name": "gregwar/image",
+            "version": "v2.0.4",
+            "target-dir": "Gregwar/Image",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gregwar/Image.git",
+                "reference": "37ad2190eb01bb7d6bc053a6f5b0187387ac29ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gregwar/Image/zipball/37ad2190eb01bb7d6bc053a6f5b0187387ac29ac",
+                "reference": "37ad2190eb01bb7d6bc053a6f5b0187387ac29ac",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Gregwar\\Image": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Passault",
+                    "email": "g.passault@gmail.com",
+                    "homepage": "http://www.gregwar.com/"
+                }
+            ],
+            "description": "Image handling",
+            "homepage": "https://github.com/Gregwar/Image",
+            "keywords": [
+                "gd",
+                "image"
+            ],
+            "time": "2013-10-18 13:33:31"
+        },
+        {
+            "name": "lusitanian/oauth",
+            "version": "v0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
+                "reference": "4ce8c488971410233eb3b1e6d9ac4e81debb41d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/4ce8c488971410233eb3b1e6d9ac4e81debb41d5",
+                "reference": "4ce8c488971410233eb3b1e6d9ac4e81debb41d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "predis/predis": "0.8.*@dev",
+                "symfony/http-foundation": "~2.1"
+            },
+            "suggest": {
+                "ext-openssl": "Allows for usage of secure connections with the stream-based HTTP client.",
+                "predis/predis": "Allows using the Redis storage backend.",
+                "symfony/http-foundation": "Allows using the Symfony Session storage backend."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OAuth": "src",
+                    "OAuth\\Unit": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Desberg",
+                    "email": "david@daviddesberg.com"
+                },
+                {
+                    "name": "Pieter Hordijk",
+                    "email": "info@pieterhordijk.com"
+                }
+            ],
+            "description": "PHP 5.3+ oAuth 1/2 Library",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "oauth",
+                "security"
+            ],
+            "time": "2015-09-09 06:43:02"
+        },
+        {
+            "name": "mercator/gallery",
+            "version": "1.06.02",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/mercator/gallery/1.06.02.zip",
+                "reference": null,
+                "shasum": "672764b2c3e37d5599d225d90891e24e9792646b"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "mercator.png"
+            },
+            "license": [
+                "GPL 3"
+            ],
+            "authors": [
+                {
+                    "name": "Helmut Kaufmann",
+                    "homepage": "https://www.mercator.li",
+                    "email": "software@mercator.li"
+                }
+            ],
+            "description": "Mercator Gallery for Pagekit is a gallery extensions based on UIKit3. Please note that the 'mode' keyword now only accepts 'lightbox', 'slider', 'randomimage', 'accordion-slider' and 'accordion-lightbox'. Make sure to use these when calling the extension. See the README at https://github.com/helmutkaufmann/Mercator-Gallery for details."
+        },
+        {
+            "name": "norrnext/social-share",
+            "version": "1.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/norrnext/social-share/1.0.4.zip",
+                "reference": null,
+                "shasum": "9c445777513e82f11b484602ea993be449eba9e4"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "GPLv3+"
+            ],
+            "authors": [
+                {
+                    "name": "NorrNext",
+                    "email": "support@norrnext.com",
+                    "homepage": "https://www.norrnext.com"
+                }
+            ],
+            "description": "This plugin displays share buttons in blog posts."
+        },
+        {
+            "name": "pagekit/analytics",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/analytics/1.0.1.zip",
+                "reference": null,
+                "shasum": "11b9836e5e3a7678aca2833d724087ca291de1a3"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "require": {
+                "lusitanian/oauth": "~0.3.5"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "An analytics extension for your dashboard."
+        },
+        {
+            "name": "pagekit/blog",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/blog/1.0.5.zip",
+                "reference": null,
+                "shasum": "4657db4af9302b18be115050e82555ab09405a21"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "A blog extensions with a built-in comment system."
+        },
+        {
+            "name": "pagekit/highlight",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/highlight/1.0.0.zip",
+                "reference": null,
+                "shasum": "9159503aaaaa4f887d3e6b4e73e38f3274e7d00d"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Add syntax highlighting to any source code displayed on your site."
+        },
+        {
+            "name": "pagekit/theme-one",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/theme-one/1.0.0.zip",
+                "reference": null,
+                "shasum": "6d49b3cbb1de15b4a3947890e7935b13de76f7f8"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "!/css",
+                    "/app/assets",
+                    "gulpfile.js",
+                    "bower.js",
+                    "package.js"
+                ]
+            },
+            "type": "pagekit-theme",
+            "extra": {
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Pagekit's default theme."
+        },
+        {
+            "name": "pastheme/dpnblog",
+            "version": "2.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pastheme/dpnblog/2.1.2.zip",
+                "reference": null,
+                "shasum": ""
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "image": "image.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pastheme",
+                    "email": "me@pastheme.com",
+                    "homepage": "http://pastheme.com"
+                },
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "An Advanced Blog Extension with some extra features."
+        },
+        {
+            "name": "shw/gallery",
+            "version": "0.3.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/shw/gallery/0.3.1.zip",
+                "reference": null,
+                "shasum": "0af767f7859dac11a806cf819f98b43a00b3c40f"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "!/vendor",
+                    "composer.lock"
+                ]
+            },
+            "require": {
+                "gregwar/image": "2.*"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "stfnhmplr",
+                    "email": "info@himpler.com",
+                    "homepage": "http://himpler.com"
+                }
+            ],
+            "description": "A extension to manage your pictures"
+        },
+        {
+            "name": "spqr/security",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/spqr/security/1.0.1.zip",
+                "reference": null,
+                "shasum": "cc23e58a7694674b004e25b05ecef02f45714d34"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Lossin-Beßler",
+                    "homepage": "https://spqr.wtf"
+                }
+            ],
+            "description": "Adds more security to Pagekit"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,6 @@
+/app/bundle/**/*.js
+/node_modules
+.DS_Store
+*.zip
+/vendor
+

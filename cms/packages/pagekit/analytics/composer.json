@@ -1,0 +1,25 @@
+{
+    "name": "pagekit/analytics",
+    "type": "pagekit-extension",
+    "version": "1.0.1",
+    "title": "Analytics",
+    "description": "An analytics extension for your dashboard.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pagekit",
+            "email": "info@pagekit.com",
+            "homepage": "http://pagekit.com"
+        }
+    ],
+    "require": {
+        "lusitanian/oauth": "~0.3.5"
+    },
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app"]
+    }
+}

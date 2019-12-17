@@ -1,0 +1,22 @@
+{
+    "name": "pagekit/highlight",
+    "type": "pagekit-extension",
+    "version": "1.0.0",
+    "title": "Highlight",
+    "description": "Add syntax highlighting to any source code displayed on your site.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pagekit",
+            "email": "info@pagekit.com",
+            "homepage": "http://pagekit.com"
+        }
+    ],
+    "extra": {
+        "icon": "icon.svg",
+        "image": "image.jpg"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app"]
+    }
+}

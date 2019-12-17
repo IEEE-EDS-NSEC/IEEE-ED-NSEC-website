@@ -1,0 +1,234 @@
+[
+  {
+    "id": "realtime",
+    "label": "Real-time",
+    "presets": [
+      {
+        "id": "visitors",
+        "label": "Visitors",
+        "counter": false,
+        "metrics": [
+          "rt:activeUsers"
+        ],
+        "dimensions": ["rt:userType"],
+        "charts": [
+          "counter"
+        ],
+        "realtime": true
+      }
+    ]
+  },
+  {
+    "id": "audience",
+    "label": "Audience",
+    "presets": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "uri": "visitors-overview",
+        "counter": true,
+        "metrics": [
+          "ga:sessions",
+          "ga:avgSessionDuration",
+          "ga:newUsers",
+          "ga:users",
+          "ga:bounceRate",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": ["ga:date"],
+        "charts": [
+          "area",
+          "column",
+          "counter"
+        ]
+      },
+      {
+        "id": "language",
+        "label": "Language",
+        "uri": "visitors-language",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:avgSessionDuration",
+          "ga:newUsers",
+          "ga:users",
+          "ga:bounceRate",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:language"
+        ],
+        "charts": [
+          "column",
+          "pie",
+          "list"
+        ]
+      },
+      {
+        "id": "location",
+        "label": "Location",
+        "uri": "visitors-geo",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:avgSessionDuration",
+          "ga:newUsers",
+          "ga:users",
+          "ga:bounceRate",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:country",
+          "ga:city",
+          "ga:continent",
+          "ga:subContinent"
+        ],
+        "charts": [
+          "geo",
+          "pie",
+          "list"
+        ]
+      },
+      {
+        "id": "newReturning",
+        "label": "New vs Returning",
+        "uri": "visitors-type",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:avgSessionDuration",
+          "ga:newUsers",
+          "ga:users",
+          "ga:bounceRate",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:userType"
+        ],
+        "charts": [
+          "pie",
+          "column",
+          "list"
+        ]
+      },
+      {
+        "id": "browser",
+        "label": "Browser & OS",
+        "uri": "visitors-language",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:avgSessionDuration",
+          "ga:newUsers",
+          "ga:users",
+          "ga:bounceRate",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:browser",
+          "ga:operatingSystem",
+          "ga:screenResolution",
+          "ga:screenColors",
+          "ga:flashVersion",
+          "ga:javaEnabled"
+        ],
+        "charts": [
+          "pie",
+          "column",
+          "list"
+        ]
+      },
+      {
+        "id": "network",
+        "label": "Network",
+        "uri": "visitors-network",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:avgSessionDuration",
+          "ga:newUsers",
+          "ga:users",
+          "ga:bounceRate",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:networkLocation",
+          "ga:hostname"
+        ],
+        "charts": [
+          "pie",
+          "column",
+          "list"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acquisition",
+    "label": "Acquisition",
+    "presets": [
+      {
+        "id": "allChannels",
+        "label": "All Channels",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:avgSessionDuration",
+          "ga:bounceRate",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:channelGrouping",
+          "ga:source",
+          "ga:sourceMedium",
+          "ga:medium"
+        ],
+        "charts": [
+          "area",
+          "pie"
+        ]
+      },
+      {
+        "id": "allTraffic",
+        "label": "All Traffic",
+        "counter": false,
+        "metrics": [
+          "ga:sessions",
+          "ga:pageviews",
+          "ga:pageviewsPerSession",
+          "ga:avgSessionDuration",
+          "ga:bounceRate",
+          "ga:percentNewSessions"
+        ],
+        "dimensions": [
+          "ga:source",
+          "ga:sourceMedium",
+          "ga:medium",
+          "ga:keyword"
+        ],
+        "charts": [
+          "area",
+          "pie"
+        ],
+        "options": {
+          "pie": {
+          }
+        }
+      }
+    ]
+  }
+]

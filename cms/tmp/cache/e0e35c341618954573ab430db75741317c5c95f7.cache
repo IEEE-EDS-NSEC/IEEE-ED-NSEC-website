@@ -1,0 +1,88 @@
+<?php return array (
+  'lifetime' => 0,
+  'data' => 
+  array (
+    'class' => 'Shw\\Gallery\\Model\\Image',
+    'eventPrefix' => NULL,
+    'events' => 
+    array (
+      'saving' => 
+      array (
+        0 => 'saving',
+      ),
+    ),
+    'fields' => 
+    array (
+      'id' => 
+      array (
+        'name' => 'id',
+        'type' => 'integer',
+        'id' => true,
+        'column' => 'id',
+      ),
+      'gallery_id' => 
+      array (
+        'name' => 'gallery_id',
+        'type' => 'integer',
+        'column' => 'gallery_id',
+      ),
+      'user_id' => 
+      array (
+        'name' => 'user_id',
+        'type' => 'integer',
+        'column' => 'user_id',
+      ),
+      'title' => 
+      array (
+        'name' => 'title',
+        'type' => 'string',
+        'column' => 'title',
+      ),
+      'filename' => 
+      array (
+        'name' => 'filename',
+        'type' => 'string',
+        'column' => 'filename',
+      ),
+      'sort_order' => 
+      array (
+        'name' => 'sort_order',
+        'type' => 'integer',
+        'column' => 'sort_order',
+      ),
+      'modified' => 
+      array (
+        'name' => 'modified',
+        'type' => 'datetime',
+        'column' => 'modified',
+      ),
+      'data' => 
+      array (
+        'name' => 'data',
+        'type' => 'json_array',
+        'column' => 'data',
+      ),
+    ),
+    'isMappedSuperclass' => false,
+    'relations' => 
+    array (
+      'user' => 
+      array (
+        'name' => 'user',
+        'type' => 'BelongsTo',
+        'targetEntity' => 'Pagekit\\User\\Model\\User',
+        'keyFrom' => 'user_id',
+        'keyTo' => NULL,
+      ),
+      'gallery' => 
+      array (
+        'name' => 'gallery',
+        'type' => 'BelongsTo',
+        'targetEntity' => 'Shw\\Gallery\\Model\\Gallery',
+        'keyFrom' => 'gallery_id',
+        'keyTo' => NULL,
+      ),
+    ),
+    'table' => '@images',
+  ),
+);

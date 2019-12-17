@@ -1,0 +1,18 @@
+{
+    "name": "norrnext/social-share",
+    "module": "norrnext/social-share",
+    "version": "1.0.4",
+    "type": "pagekit-extension",
+    "title": "PKB Social Share",
+    "description": "This plugin displays share buttons in blog posts.",
+    "license": "GPLv3+",
+    "authors": [{
+        "name": "NorrNext",
+        "email": "support@norrnext.com",
+        "homepage": "https://www.norrnext.com"
+    }],
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    }
+}

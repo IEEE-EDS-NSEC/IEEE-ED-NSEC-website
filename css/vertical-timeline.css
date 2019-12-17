@@ -1,0 +1,350 @@
+/*-----------------------------------------------------------------------------------
+
+  Theme Name: Anant | Multipurpose HTML Template
+  Theme URI: http://anant.revivalpixel.com/html/index.html
+  Author:HTML Pixel
+  Author URI: http://www.revivalpixel.com/
+  Description: Anant | Multipurpose HTML Template is a perfect design for Creative Agency, Corporation, Organization, Community, Company Profile, Personal Portfolio, News, Creative Blog, Gallery Photo and many more.
+  Version: 1.0
+
+---------------------------------------------------------------------------------------*/
+
+#rp-timeline { position: relative; margin: 100px 0 0 0; }
+#rp-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #e6e6e6;
+}
+@media only screen and (min-width: 1170px) {
+
+#rp-timeline::before { left: 50%; margin-left: -2px; }
+}
+.rp-timeline-block { position: relative; }
+.rp-timeline-block:after { content: ""; display: table; clear: both; }
+.rp-timeline-block:first-child { margin-top: 0; }
+.rp-timeline-block:last-child { margin-bottom: 0; }
+@media only screen and (min-width: 1170px) {
+.rp-timeline-block:first-child { margin-top: 0; }
+.rp-timeline-block:last-child { margin-bottom: 0; }
+}
+.rp-timeline-img {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid #e6e6e6; 
+  display: table;
+  background: #fff;
+}
+.rp-timeline-img .fa{ display: table-cell; vertical-align: middle;text-align: center;}
+.rp-timeline-img img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.rp-timeline-content {border: 1px solid #e0e0e0; }
+.rp-timeline-img.rp-picture { background: #75ce66; }
+.rp-timeline-img.rp-movie { background: #c03b44; }
+.rp-timeline-img.rp-location { background: #f0ca45; }
+@media only screen and (min-width: 1170px) {
+.rp-timeline-img {
+  background: #fff;
+  height: 50px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  -ms-backface-visibility: hidden;
+  -o-transform: translateZ(0);
+  -o-backface-visibility: hidden;
+  -moz-transform: translateZ(0);
+  -moz-backface-visibility: hidden;
+}
+.cssanimations .rp-timeline-img.is-hidden { visibility: hidden; }
+.cssanimations .rp-timeline-img.bounce-in {
+  visibility: visible;
+  -webkit-animation: rp-bounce-1 0.6s;
+  -moz-animation: rp-bounce-1 0.6s;
+  -ms-animation: rp-bounce-1 0.6s;
+  -o-animation: rp-bounce-1 0.6s;
+  animation: rp-bounce-1 0.6s;
+}
+}
+
+@-webkit-keyframes rp-bounce-1 {
+0% {
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+}
+
+60% {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+}
+
+100% {
+  -webkit-transform: scale(1);
+}
+}
+@-moz-keyframes rp-bounce-1 {
+0% {
+  opacity: 0;
+  -moz-transform: scale(0.5);
+}
+
+60% {
+  opacity: 1;
+  -moz-transform: scale(1.2);
+}
+
+100% {
+  -moz-transform: scale(1);
+}
+}
+@keyframes rp-bounce-1 {
+0% {
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+60% {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+100% {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+}
+
+.rp-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  padding: 1em;
+}
+.rp-timeline-content:after { content: ""; display: table; clear: both; }
+.rp-timeline-content p, .rp-timeline-content .rp-read-more, .rp-timeline-content .rp-date {
+  font-size: 13px;
+}
+.rp-timeline-content .rp-read-more, .rp-timeline-content .rp-date {
+  display: inline-block;
+}
+.rp-timeline-content p { margin: 1em 0; line-height: 1.6; }
+.rp-timeline-content .rp-read-more {
+  float: right;
+  padding: .8em 1em;
+  background: #acb7c0;
+  color: white;
+  border-radius: 0.25em;
+}
+.no-touch .rp-timeline-content .rp-read-more:hover { background-color: #bac4cb; }
+.rp-timeline-content .rp-date { float: left; padding: 5px 20px; }
+.rp-timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 50px;
+  border-top: 3px solid #e6e6e6;
+}
+@media only screen and (min-width: 768px) {
+.rp-timeline-content p { font-size: 16px; margin: 15px 0 0; padding: 0; }
+.rp-timeline-content .rp-read-more, .rp-timeline-content .rp-date {
+  font-size: 16px;
+}
+}
+@media only screen and (min-width: 1170px) {
+.rp-timeline-content {
+  margin-left: 0;
+  padding: 1.6em;
+  width: 44%;
+  border: 1px solid #e0e0e0;
+}
+.rp-timeline-content::before { top: 65px; left: 100%; }
+.rp-timeline-content .rp-read-more { float: left; }
+.rp-timeline-content .rp-date {
+  position: absolute;
+  width: 100%;
+  left: 122%;
+  top: 51px;
+  font-size: 16px;
+  color: #333; 
+}
+.rp-timeline-content .rp-date span{ font-weight: 600; }
+.rp-timeline-block:nth-child(even) .rp-timeline-content { float: right; }
+.rp-timeline-block:nth-child(even) .rp-timeline-content::before { top: 65px; left: auto; right: 100%; }
+.rp-timeline-block:nth-child(even) .rp-timeline-content .rp-read-more { float: right; }
+.rp-timeline-block:nth-child(even) .rp-timeline-content .rp-date { left: auto; right: 122%; text-align: right; }
+.cssanimations .rp-timeline-content.is-hidden { visibility: hidden; }
+.cssanimations .rp-timeline-content.bounce-in {
+  visibility: visible;
+  -webkit-animation: rp-bounce-2 0.6s;
+  -moz-animation: rp-bounce-2 0.6s;
+  animation: rp-bounce-2 0.6s;
+}
+}
+
+@media only screen and (min-width: 1170px) {
+.cssanimations .rp-timeline-block:nth-child(even) .rp-timeline-content.bounce-in {
+  -webkit-animation: rp-bounce-2-inverse 0.6s;
+  -moz-animation: rp-bounce-2-inverse 0.6s;
+  animation: rp-bounce-2-inverse 0.6s;
+}
+}
+@-webkit-keyframes rp-bounce-2 {
+0% {
+  opacity: 0;
+  -webkit-transform: translateX(-100px);
+}
+
+60% {
+  opacity: 1;
+  -webkit-transform: translateX(20px);
+}
+
+100% {
+  -webkit-transform: translateX(0);
+}
+}
+@-moz-keyframes rp-bounce-2 {
+0% {
+  opacity: 0;
+  -moz-transform: translateX(-100px);
+}
+60% {
+  opacity: 1;
+  -moz-transform: translateX(20px);
+}
+
+100% {
+  -moz-transform: translateX(0);
+}
+}
+@keyframes rp-bounce-2 {
+0% {
+  opacity: 0;
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
+  transform: translateX(-100px);
+}
+
+60% {
+  opacity: 1;
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+100% {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+}
+@-webkit-keyframes rp-bounce-2-inverse {
+0% {
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+}
+
+60% {
+  opacity: 1;
+  -webkit-transform: translateX(-20px);
+}
+
+100% {
+  -webkit-transform: translateX(0);
+}
+}
+@-moz-keyframes rp-bounce-2-inverse {
+0% {
+  opacity: 0;
+  -moz-transform: translateX(100px);
+}
+60% {
+  opacity: 1;
+  -moz-transform: translateX(-20px);
+}
+
+100% {
+  -moz-transform: translateX(0);
+}
+}
+@keyframes rp-bounce-2-inverse {
+0% {
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -o-transform: translateX(100px);
+  transform: translateX(100px);
+}
+
+60% {
+  opacity: 1;
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  -o-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+100% {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+}
+.v-timeline-title a { font-family: Raleway; font-size: 18px;color: #131114;font-weight: bold;}
+.timeline-small-image { float: left; margin: 25px 20px 0 0 !important; width: 180px; }
+.rp-timeline-content img{ margin: 15px auto;}
+.rp-timeline-content blockquote{ margin-bottom: 15px; }
+.rp-timeline-content .rp-date{    font-family: Raleway;color: #131114;}
+@media ( max-width: 1169px ){
+.rp-timeline-block{ padding: 0 10px 0 0; }
+.rp-timeline-content::before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 61px;
+  width: 20px;
+}
+.rp-timeline-content p{ padding: 0; }
+.rp-timeline-content .rp-date{ padding: 5px 0;}
+.rp-timeline-content{ margin-bottom: 30px;}
+}

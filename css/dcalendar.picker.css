@@ -1,0 +1,115 @@
+/*-----------------------------------------------------------------------------------
+
+  Theme Name: Anant | Multipurpose HTML Template
+  Theme URI: http://anant.revivalpixel.com/html/index.html
+  Author:HTML Pixel
+  Author URI: http://www.revivalpixel.com/
+  Description: Anant | Multipurpose HTML Template is a perfect design for Creative Agency, Corporation, Organization, Community, Company Profile, Personal Portfolio, News, Creative Blog, Gallery Photo and many more.
+  Version: 1.0
+
+---------------------------------------------------------------------------------------*/
+
+.calendar {
+	position: relative;
+	font-size: 12px;
+	border-collapse: collapse;
+	margin: 0; padding: 0;
+	z-index: 4;
+	border:1px solid rgba(0,0,0,0.08);
+	width: 270px !important;
+	color: #000;
+	text-align: center;
+	background-color: #FFF;
+    font-family: Raleway;
+}
+.calendar tr:first-child th:hover{color:red !important;}
+.calendar th,
+.calendar td {
+	text-align: center;
+	-webki-ttransition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	padding: 5px !important; 
+	vertical-align: middle;
+}
+.calendar th:first-child,
+.calendar td:first-child {
+	margin-left: 5px;
+}
+/*.calendar span { padding: 6px 4px;  display: block; }*/
+.calendar .month {padding: 15px; display: inline-block; }
+.calendar .pMDate, .calendar .nMDate { color: #c7c7c7; }
+.calendar .date, .calendar .pMDate, .calendar .nMDate, .calendar .month { cursor: pointer; }
+.calendar .date:hover, .calendar .pMDate:hover, .calendar .nMDate:hover, .calendar .month:hover {
+	background-image: -moz-linear-gradient( -40deg, rgb(255,54,46) 0%, rgb(241,26,58) 49%, rgb(230,6,71) 100%);
+    background-image: -webkit-linear-gradient( -40deg, rgb(255,54,46) 0%, rgb(241,26,58) 49%, rgb(230,6,71) 100%);
+    background-image: -ms-linear-gradient( -40deg, rgb(255,54,46) 0%, rgb(241,26,58) 49%, rgb(230,6,71) 100%); 
+	color: #FFF; 
+	}
+.calendar .date:active, .calendar .pMDate:active, .calendar .nMDate:active, .calendar .month:active { background-color: #fec601; color: #FFF; }
+.calendar .selected { background-color: #ed123f !important; color: #fff !important; }
+.calendar tr:first-child th {
+	background-color: #262626;
+	padding: 4px;
+	padding-top: 8px;
+	font-size: 14px;
+}
+.calendar tr:first-child th { 
+	color: #fff;
+    cursor: pointer;
+    font-family:Raleway;
+    padding: 10px 0;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.calendar #prev:hover{color:#f0173c;}
+.calendar #next:hover{color:#f0173c;}
+.calendar tr:first-child th:hover { color:#22A7F0; }
+.calendar tr:first-child th:active { color: #22A7F0; }
+.calendar thead tr:nth-child(2) th { 
+	color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 3px;
+}
+.calendar #prev, .calendar #next 
+{ 
+	background: #333 none repeat scroll 0 0;
+    font-size: 20px;
+    line-height: 0;
+    padding: 18px 0 22px !important;
+}
+.calendar #today {
+	text-align: center; 
+	cursor: pointer;
+	color: #22A7F0; 
+	padding: 10px 6px;
+	display:  none;
+}
+.calendar #today:hover { color: #80A7DD; }
+.calendar #today:active { color: #000; }
+.calendar #currDay { 
+    background-image: -moz-linear-gradient( -40deg, rgb(255,54,46) 0%, rgb(241,26,58) 49%, rgb(230,6,71) 100%);
+    background-image: -webkit-linear-gradient( -40deg, rgb(255,54,46) 0%, rgb(241,26,58) 49%, rgb(230,6,71) 100%);
+    background-image: -ms-linear-gradient( -40deg, rgb(255,54,46) 0%, rgb(241,26,58) 49%, rgb(230,6,71) 100%); 
+	color: #fff;
+	}
+.datepicker { background-size: contain; width: 50%; }
+.date > span, .nMDate > span, .pMDate > span{ font-size: 14px;}
+.calender-icon { margin: 14px 0 0 -30px;  position: absolute; left: 26%;}
+.calender-icon .fa{ color: #131114; }
+
+@media ( min-width: 320px ) and ( max-width: 767px ) {
+.calendar {width:312px !important;}	
+}
+
+@media ( min-width: 768px ) and ( max-width: 1024px ) {
+.datepicker {
+    background-size: contain;
+    width: 62% !important;
+}
+ .calender-icon{left: 38%;}
+
+ .calendar {width:340px !important;}
+}

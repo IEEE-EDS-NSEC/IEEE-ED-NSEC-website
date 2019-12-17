@@ -1,0 +1,58 @@
+/**
+ * @version    1.2.0
+ * @package    Pkb Social Share
+ * @author     Dmitry Rekun and Artem Valchuk <support@norrnext.com>
+ * @copyright  Copyright © 2015 NorrNext. All rights reserved.
+ * @license    GNU General Public License version 3 or later; see license.txt
+ */
+.pkb-socialshare .uk-button,
+.pkb-socialshare i{color: #fff; border-color: transparent!important}
+.pkb-socialshare i{min-width: 15px; text-align: center}
+.pkb-socialshare .uk-button span {color: #fff}
+.pkb-socialshare .uk-button-facebook{background: #3B5998}
+.pkb-socialshare .uk-button-facebook:hover{background: #4D6EB3}
+.pkb-socialshare .uk-button-twitter{background: #55ACEE}
+.pkb-socialshare .uk-button-twitter:hover{background: #74B9EE}
+.pkb-socialshare .uk-button-google-plus{background: #D44837}
+.pkb-socialshare .uk-button-google-plus:hover{background: #E04C3A}
+.pkb-socialshare .uk-button-pinterest{background: #dc3d3c}
+.pkb-socialshare .uk-button-pinterest:hover{background: #e94544}
+.pkb-socialshare .uk-button-vk{background: #44678d}
+.pkb-socialshare .uk-button-vk:hover{background: #4c749f}
+.pkb-socialshare .uk-button-linkedin{background: #1385c6}
+.pkb-socialshare .uk-button-linkedin:hover{background: #2894d2}
+.pkb-socialshare .uk-button.uk-button-large i + span {margin-left: 10px;}
+/* Fixed Style */
+.pkb-socialshare.pkb-socialshare-fixed-right {position: fixed;right: 0px;top: 30%; z-index: 9}
+.pkb-socialshare.pkb-socialshare-fixed-right > .uk-button:after {padding-right: 15px; content: ''; right: 0;}
+.pkb-socialshare.pkb-socialshare-fixed-right > .uk-button {display: block;text-align: left; right: -15px; position: relative;}
+.pkb-socialshare.pkb-socialshare-fixed-right > .uk-button:hover {right: 0;}
+.pkb-socialshare.pkb-socialshare-fixed-left{position: fixed;left: 0px;top: 30%; z-index: 9}
+.pkb-socialshare.pkb-socialshare-fixed-left > .uk-button:before{padding-left: 15px; content: ''; left: 0;}
+.pkb-socialshare.pkb-socialshare-fixed-left > .uk-button{display: block;text-align: left; left: -15px; position: relative;}
+.pkb-socialshare.pkb-socialshare-fixed-left > .uk-button:hover{left: 0;}
+/* Responsive Buttons */
+@media (max-width: 768px){
+    .pkb-socialshare-responsive.pkb-socialshare .uk-button-large,
+    .pkb-socialshare-responsive.pkb-socialshare .uk-button-default{
+      min-height: 25px;
+      padding: 0 10px;
+      line-height: 25px;
+      font-size: 12px;
+    }
+    .pkb-socialshare-responsive-text.pkb-socialshare i + span,
+    .pkb-socialshare-responsive-text.pkb-socialshare-fixed-left.pkb-socialshare .pkb-counter,
+    .pkb-socialshare-responsive-text.pkb-socialshare-fixed-right.pkb-socialshare .pkb-counter{
+        display: none
+    }
+}
+@media (max-width: 480px) {
+    .pkb-socialshare-responsive.pkb-socialshare .uk-button-small,
+    .pkb-socialshare-responsive.pkb-socialshare .uk-button-default,
+    .pkb-socialshare-responsive.pkb-socialshare .uk-button-large{
+      min-height: 20px;
+      padding: 0 6px;
+      line-height: 20px;
+      font-size: 11px;
+    }
+}

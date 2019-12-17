@@ -1,0 +1,19 @@
+{
+  "name": "bixie/breadcrumbs",
+  "module": "bixie/breadcrumbs",
+  "type": "pagekit-extension",
+  "version": "1.0.0",
+  "title": "Breadcrumbs",
+  "description": "Display breadcrumbs on your Pagekit page",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bixie",
+      "email": "info@bixie.org",
+      "homepage": "http://www.bixie.org"
+    }
+  ],
+  "extra": {
+    "icon": "icon.svg"
+  }
+}

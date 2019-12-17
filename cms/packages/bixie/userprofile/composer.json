@@ -1,0 +1,20 @@
+{
+  "name": "bixie/userprofile",
+  "module": "bixie/userprofile",
+  "type": "pagekit-extension",
+  "version": "1.3.0",
+  "title": "Userprofile",
+  "description": "Userprofile for Pagekit. Requires the Bixie Framework, available on the Pagekit Marketplace.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bixie",
+      "email": "info@bixie.nl",
+      "homepage": "http://userprofile.bixie.org"
+    }
+  ],
+  "extra": {
+    "icon": "icon.svg",
+    "scripts": "scripts.php"
+  }
+}

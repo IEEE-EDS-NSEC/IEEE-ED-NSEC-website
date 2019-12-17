@@ -1,0 +1,167 @@
+/*-----------------------------------------------------------------------------------
+
+  Theme Name: Anant | Multipurpose HTML Template
+  Theme URI: http://anant.revivalpixel.com/html/index.html
+  Author:HTML Pixel
+  Author URI: http://www.revivalpixel.com/
+  Description: Anant | Multipurpose HTML Template is a perfect design for Creative Agency, Corporation, Organization, Community, Company Profile, Personal Portfolio, News, Creative Blog, Gallery Photo and many more.
+  Version: 1.0
+
+---------------------------------------------------------------------------------------*/
+
+figure, figcaption { display: block; }
+.transition {
+    -webkit-transition: top 400ms linear;
+    -moz-transition: top 400ms linear;
+    -ms-transition: top 400ms linear;
+    -o-transition: top 400ms linear;
+    transition: top 400ms linear;
+}
+.timeTo {
+	font-family: open sans;
+	font-size: 28px;
+	line-height: 108%;
+	font-weight: bold;
+	height: auto;
+  /*margin-bottom: 30px;*/
+}
+.timeTo span { vertical-align: top; display: none; }
+.timeTo.timeTo-white div { color: black; }
+.timeTo.timeTo-black div { color: white; }
+.timeTo figure {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+    max-width: 100% !important;
+    width: 25% !important;
+    text-align: center;
+}
+.timeTo figcaption {
+  color: #333;
+  font-size: 16px !important;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+.timeTo div {
+	position: relative;
+	display: inline-block;
+	width: 38px !important;
+	height: 60px !important;
+	overflow: hidden;
+}
+.timeTo ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 3px;
+}
+.timeTo ul li {
+  font-family: montserrat;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: normal !important;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.countdown.style-two.timeTo ul li {font-family: Vidaloka; font-weight: 400;}
+.countdown.style-two.timeTo figcaption{font-size: 16px !important; font-weight: bold; font-family: Raleway;}
+.countdown.style-two.timeTo figure{width: 18% !important;}
+.countdown.style-three.timeTo ul li {font-family: Vidaloka; font-weight: 400;}
+.countdown.style-three.timeTo figcaption{font-size: 16px !important; font-weight: bold; font-family: Raleway;}
+.countdown.style-three.timeTo figure{width: 20% !important;}
+.countdown.style-four.timeTo figure { border: 1px solid #e2e2e2; padding: 15px 0 30px; background:#fff;}
+.countdown.style-four.timeTo ul li {font-family: Vidaloka; font-weight: 400;}
+.countdown.style-four.timeTo figcaption{font-size: 16px !important; font-weight: bold; font-family: Raleway; color:#fc3031;}
+.countdown.style-five.timeTo ul li {font-family: Raleway; font-weight: bold; font-size:150px; color:#808080; margin-top: 17px;}
+.countdown.style-five.timeTo{position: relative; top: 140px;}
+.countdown.style-five.timeTo.timeTo div {width: 100px !important; height: 158px !important}
+.countdown.style-five.timeTo figure::after
+{
+	content: "";
+	border-right: 1px solid #808080;
+	height: 141px;
+	position: absolute;
+	height: 100px;
+	bottom: 145px;
+	margin-left: 122px;
+}
+.countdown.style-five.timeTo figure:last-child:after{
+	display:none;
+}
+.countdown.style-three.timeTo figure::after 
+{
+    border-right: 1px solid #e2e2e2;
+    position: absolute;
+    height: 86px;
+    content: " ";
+    margin-left: 67px;
+    bottom: 60px;
+}
+.countdown.style-three.timeTo figure:last-child:after{
+	display:none;
+}
+.countdown.style-five.timeTo figcaption{font-size: 16px !important; font-weight: bold; font-family: Raleway; color:#fff; position: relative; bottom: 116px;}
+.countdown.style-six.timeTo.timeTo div {width: 50px !important; height: 85px !important;}
+.countdown.style-six.timeTo figcaption{font-family: Raleway; font-weight: bold; text-transform: uppercase;}
+.countdown.style-six.timeTo ul li{font-family: Raleway; font-weight: 600; font-size:80px; margin-top:35px;}
+
+.countdown.style-six.timeTo figure{
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	padding: 27px 0px;
+	}
+.countdown.style-six.timeTo figure:last-child{border-right: 1px solid #e2e2e2;}
+
+/*=========== 05-05-2017 ==========*/
+
+
+@media ( min-width: 320px ) and ( max-width: 767px ) {
+.timeTo div {
+  display: inline-block;
+  height: 30px !important;
+  overflow: hidden;
+  position: relative;
+  width: 18px !important;
+}
+.timeTo ul li{ line-height: 40px !important; font-size: 20px !important; }
+	
+	.countdown.style-five.timeTo.timeTo div { width: 18px !important;    height: 145px !important;  }
+	.countdown.style-five.timeTo figure::after { margin-left: 41px; height: 65px;}
+	.countdown.style-five.timeTo ul li {    font-family: Raleway;    font-weight: bold;    font-size: 100px;    color: #808080;    margin-top: 11px;}
+	.countdown.style-six.timeTo.timeTo div {    width: 20px !important;		height: 26px !important; }
+	.countdown.style-six.timeTo ul li{margin-top: 40px !important;}
+	
+	.countdown.style-three.timeTo figure::after {
+    border-right: 1px solid #e2e2e2;
+    position: absolute;
+    height: 55px;
+    content: " ";
+    margin-left: 30px;
+    top: 33px;
+}
+.countdown.style-two.timeTo figcaption {
+font-size: 12px !important; margin-top: -18px;}
+	
+.countdown.style-three.timeTo figcaption {
+    font-size: 12px !important; margin-top: -18px;}
+	
+.countdown.style-four.timeTo figcaption {margin-top: -18px;}
+
+.countdown.style-four.timeTo figure{padding: 15px 0 15px;}
+
+.countdown.style-six.timeTo figure {padding: 14px 0px;}
+}
+
+@media ( min-width: 768px ) and ( max-width: 1024px ) {
+	.timeTo div {width:32px !important;}
+	.countdown.style-five.timeTo.timeTo div {    width: 60px !important;    height: 130px !important;  }
+	.countdown.style-five.timeTo figure::after {    margin-left: 105px;}
+	.countdown.style-five.timeTo ul li {    font-family: Raleway;    font-weight: bold;    font-size: 100px;    color: #808080;    margin-top: 27px;}
+	.countdown.style-three.timeTo figure::after{margin-left: 45px;}
+}

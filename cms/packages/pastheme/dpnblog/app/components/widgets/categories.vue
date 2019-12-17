@@ -1,0 +1,49 @@
+<template lang="html">
+
+    <div class="uk-grid pk-grid-large pk-width-sidebar-large" data-uk-grid-margin>
+
+        <div class="pk-width-content uk-form-horizontal">
+
+            <div class="uk-form-row">
+                <label for="form-title" class="uk-form-label">{{ 'Title' | trans }}</label>
+                <div class="uk-form-controls">
+                    <input id="form-title" class="uk-form-width-large uk-width-1-1" type="text" name="title" v-model="widget.title" v-validate:required>
+                    <p class="uk-form-help-block uk-text-danger" v-show="form.title.invalid">{{ 'Title cannot be blank.' | trans }}</p>
+                </div>
+            </div>
+            <div class="uk-form-row">
+                <label class="uk-form-label">{{ 'Order' | trans }}</label>
+                <div class="uk-form-controls">
+                    <select class="uk-width-1-1" v-model="widget.data.order">
+                        <option value="asc">ASC</option>
+                        <option value="desc">DESC</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="pk-width-sidebar">
+            <partial name="settings"></partial>
+        </div>
+
+    </div>
+
+</template>
+
+<script>
+module.exports = {
+    section:{
+        label: 'Settings'
+    },
+    props: ['widget', 'config', 'form'],
+    replace: false,
+
+    created: function () {
+        this.$options.partials = this.$parent.$options.partials;
+        this.$set('widget.data', _.merge({
+            order:'desc'
+        }, this.widget.data));
+    }
+}
+window.Widgets.components['dpnblog-categories:settings'] = module.exports;
+</script>
